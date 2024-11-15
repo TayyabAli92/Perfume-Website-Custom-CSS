@@ -1,4 +1,5 @@
 import PerfumeType from "@/components/perfume";
+import "../../style/product.css"
 
 export default function PerfumeItem(){
     return(

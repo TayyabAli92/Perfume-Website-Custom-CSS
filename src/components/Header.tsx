@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import "../style/header.css";
 import Image from 'next/image';
 
 export default function Header(){
