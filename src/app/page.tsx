@@ -1,7 +1,4 @@
-// pages/index.tsx
-import Head from 'next/head';
-import Image from 'next/image';
-import "../style/page.css";
+import Image from "next/image";
 
 export default function Home(){
   return (

@@ -1,6 +1,4 @@
 import PerfumeType from "@/components/perfume";
-import "../../style/product.css"
-import Image from "next/image";
 
 export default function PerfumeItem(){
     return(
