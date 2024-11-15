@@ -1,6 +1,7 @@
 .project-box {
     padding: 20px;
     height: auto;
+    color: black;
 }
 
 .project-heading {
@@ -16,8 +17,6 @@
 }
 
 .project-item {
-    background-color: rgb(244, 247, 248);
-    border: 1px solid #ddd; 
     border-radius: 8px; 
     padding: 10px;
     margin: 15px; 
@@ -30,12 +29,12 @@
 .project-item:hover {
     transform: scale(1.05); 
 }
-
-.portfolio-image {
+/* 
+.perfume-image {
     border-radius: 8px; 
     max-width: 100%;
     height: auto;
-}
+} */
 
 @media (max-width: 900px) {
     .project-item {
@@ -46,9 +45,22 @@
 @media (max-width: 600px) {
     .project-item {
         width: calc(100% - 30px); 
+        margin: 10px; 
     }
 
     .project-heading {
         font-size: 2rem;
+        margin-bottom: 15px; 
+    }
+
+    .project-box {
+        padding: 15px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .perfume-image {
+        width: 100px;
+        height: 100px;
     }
 }
